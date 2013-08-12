@@ -1,16 +1,15 @@
 import sqlite3
 import os
 import time
-from Crypto.Cipher import AES
 import binascii
 
-OUTPUT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# OUTPUT_ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_FILE = "passman.db"
 class Database(object):
 	__shared_state = {} #Borg design pattern, shared state
 	def __init__(self):
 		self.__dict__ = self.__shared_state
-		self.filename = os.path.join(OUTPUT_ROOT, OUTPUT_FILE)
+		self.filename = os.path.join(OUTPUT_FILE)
 		if not os.path.isfile(self.filename):
 			self.createDatabase(self.filename)
 		else:
