@@ -18,7 +18,7 @@ View Passwords:
 	2. Click Show (Ctrl/Cmd S)
 	3. The Username and Password will be shown respectively in the boxes
 	to the right of the list box
-	4. Click Clear (Ctrl/Cmd C) to clear the boxes
+	4. Click Clear (Ctrl/Cmd X) to clear the boxes
 Delete:
 	1. Click to highlight the description
 	2. Click Delete

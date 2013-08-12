@@ -81,7 +81,7 @@ class PassMan(wx.Frame):
 			self.Bind(wx.EVT_MENU, self.OnShow, id=showid)
 			self.accel_tbl = wx.AcceleratorTable([(wx.ACCEL_CTRL, ord('N'), addid),
 													(wx.ACCEL_CTRL, ord('Q'), quitid),
-													(wx.ACCEL_CTRL, ord('C'), clearid),
+													(wx.ACCEL_CTRL, ord('X'), clearid),
 													(wx.ACCEL_CTRL, ord('S'), showid)
 													])
 			self.SetAcceleratorTable(self.accel_tbl)
