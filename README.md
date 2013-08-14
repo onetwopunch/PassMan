@@ -5,6 +5,11 @@ developed by Ryan Canty jrcanty@gmail.com
 This is a simple cross-platform, open source password manager application,
 built using Python, including wx and passlib libraries.
 
+INSTALL:
+	Currently there is a Mac OSX app created with py2app that has all necessary libraries to run PassMan located at dist/PassMan.app. All you need to do is copy PassMan.app into your Application directory to install it. 
+
+	If you would like to run PassMan from the python script itself on either Linux or Windows (neither have been tested yet), just make sure passlib and wx libraries are installed and in your PATH variable. Other than that, the only two files you need are passman.py and database.py
+
 Usage:
 
 Add new Password entry:
